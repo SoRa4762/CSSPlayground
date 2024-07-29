@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  height: 60vh;
+  width: 60%;
+  display: flex;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card1 {
+  background-color: orange;
+}
+
+.card2 {
+  background-color: darkcyan;
+}
+
+.card3 {
+  background-color: darkslategray;
+}
