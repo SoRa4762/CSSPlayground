@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(84, 203, 84);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  background-color: rgb(238, 235, 235);
+}
+
+button {
+  padding: 12px;
+  color: white;
+  background-color: rgb(84, 203, 84);
+  border: none;
+}
+
+.texts {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+}
+
+.texts p,
+a {
+  font-size: 10px;
+}
+
+.texts p {
+  color: rgb(177, 177, 177);
+}
+
+.texts a {
+  color: rgb(84, 203, 84);
+  text-decoration: none;
+}
